@@ -64,7 +64,7 @@ def send_data(ser, STRUCT_VARIABLES):
 
 #********************************** MAIN ***********************************
 if __name__ == "__main__":
-    port = '/dev/ttyUSB0'
+    port = 'COM3'
     baudrate = 9600
 
     ser = serial.Serial(port, baudrate, timeout=5)
